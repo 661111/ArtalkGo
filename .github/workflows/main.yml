@@ -10,4 +10,4 @@ jobs:
     - name: Deploy to LeanEngine
       uses: enflo/curl-action@v1.2
       with:
-        curl: -X POST https://us-w1-console-api.leancloud.app/1.1/engine/groups/web/production/version?gitTag=${{ github.sha }}&token=${{ secrets.DEPLOY_TOKEN }}
+        curl: -X POST https://us-w1-console-api.leancloud.app/1.1/engine/groups/web/production/version?gitTag=master&token=cGnJ5PKNjOTyYxYkaTq7L6eHzVUp0ORjdY8CL1jad8a4paz9bhC0sDtk4rQOaWBE
