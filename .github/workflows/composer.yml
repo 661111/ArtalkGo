@@ -17,7 +17,7 @@ jobs:
         npm install composer
         composer install
         
-        
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.TOKEN }}
